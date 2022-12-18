@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="C:\Users\ambik\Desktop\jit jaalataana\index.html\css\chatbot.html"> -->
+    <title>HOME-JIT JAALATAANA</title>
+   
+   
+   
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body{
+          /* background-image: url("file:///D:/web%20development/p1.jpeg");  */
+          background-image: url("file:///C:/Users/ambik/Desktop/p1.jpg") ;
+          background-size: 100% 100%; 
+      
+     
+        background-repeat: no-repeat;
+     
+     }
+     
+     </style>
+
+
+    <style>
+    h1{
+        color: antiquewhite;
+        font-family: cursive;
+        font-size: 50px; 
+        line-height: 2em;
+        font-weight: bold;
+    
+    }
+    
+    </style>
+
+<style>
+    p{
+        color: aliceblue;
+        font-family: cursive;
+        font-size: 30px; 
+        line-height: 2em;
+        font-weight: bold;
+    
+    }
+    
+    </style>
+
+    <style>
+    .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+      .button1 {background-color: #4CAF50;} /* Green */
+      .button2 {background-color: #008CBA;} /* Blue */
+      
+      .flex {
+    display:flex;
+    align-items: center;
+}
+
+.navbar{
+            background-color: black;
+            border-radius: 30px;
+          }
+
+
+          .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+        }
+
+
+        .navbar ul{
+            overflow: auto;
+        }
+
+
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        } 
+        
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
+        .navbar li a:hover{
+            color: red
+        }
+
+      </style>
+
+
+</style>
+
+    </head>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            background: url('bgimage.jpg');
+        }
+    </style>
+    
+    
+    <body>
+        <style>
+            body{
+              /* background-image: url("file:///D:/web%20development/p1.jpeg");  */
+              background-image: url("file:///C:/Users/ambik/Desktop/p1.jpg") ;
+              background-size: 100% 100%; 
+          
+         
+            background-repeat: no-repeat;
+         
+         }
+         
+         </style>
+        
+
+        <div class="top-banner">
+            <div class="small-bold-text"
+        </div>
+
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a img src=""></a>  </a></li>
+                    <li><a href="C:\Users\ambik\Desktop\jit jaalataana\index.html\css\home.html">Home</a></li>
+                    <li><a href="C:\Users\ambik\Desktop\jit jaalataana\index.html\css\aboutus.html">About us</a></li>
+                    <li><a href="C:\Users\ambik\Desktop\jit jaalataana\index.html\css\signup.html">Contact us</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="Search this website">
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+
+
+
+
+
+
+        <!-- <img src="https://www.jyothyit.ac.in/wp-content/themes/jyothi/images/logo.png" alt="jit logo" width="200" height="50"></td> -->
+        <img src="C:\Users\ambik\Desktop\jj.jpg" alt="jit logo" width="100" height="50">
+        <td><h1 style="color:red;" align="center"><em>JIT JAALATAANA</em></h1>
+                    <h1 style="color:red;" align="center">WELCOME😄</h1></td>
+                   <center> <a href=""><button class="button button1">Events</button></a>
+                            <a href="C:\Users\ambik\Desktop\jit jaalataana\index.html\css\studentclubs.html"><button class="button button1">Student clubs</button></a>
+                            <a href="C:\Users\ambik\Desktop\jit jaalataana\index.html\css\podcasts.html"><button class="button button1">Podcasts</button></a>
+                            <a href="C:\Users\ambik\Desktop\jit jaalataana\index.html\css\projects.html"><button class="button button1">Projects</button></a></center>
+<center><h1>What we do</h1>
+<p> JIT JAALATAANA aims to connect future engineers with industry experts and top academicians. We provide a platform for students to stay updated with today's trending real-time projects through podcasts and technical talks by eminent professors and professionals. We also provide insights about the student clubs of JIT and help students upgrade their skills by providing a platform to showcase their skills.</p></center>>
+
+
+   
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+        <div class="content">
+            <div class="full-chat-block">
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: rgb(6, 0, 0);" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .chat-bar-collapsible {
+        position: fixed;
+        bottom: 0;
+        right: 50px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .collapsible {
+        background-color: rgb(122, 6, 85);
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 350px;
+        text-align: left;
+        outline: none;
+        font-size: 18px;
+        border-radius: 10px 10px 0px 0px;
+        border: 3px solid rgb(6, 0, 0);
+        border-bottom: none;
+    }
+    .content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+        background-color: #f1f1f1;
+    }
+    .full-chat-block {
+        width: 350px;
+        background: white;
+        text-align: center;
+        overflow: auto;
+        scrollbar-width: none;
+        height: max-content;
+        transition: max-height 0.3s ease-out;
+    }
+    .outer-container {
+        min-height: 500px;
+        bottom: 0%;
+        position: relative;
+    }
+    .chat-container {
+        max-height: 500px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        scroll-behavior: smooth;
+        hyphens: auto;
+    }
+    .chat-container::-webkit-scrollbar {
+        display: none;
+    }
+    .chat-bar-input-block {
+        display: flex;
+        float: left;
+        box-sizing: border-box;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        background-color: rgb(235, 235, 235);
+        border-radius: 10px 10px 0px 0px;
+        padding: 10px 0px 10px 10px;
+    }
+    .chat-bar-icons {
+        display: flex;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        width: 25%;
+        float: right;
+        font-size: 20px;
+    }
+    #chat-icon:hover {
+        opacity: .7;
+    }
+    #userInput {
+        width: 75%;
+    }
+    .input-box {
+        float: left;
+        border: none;
+        box-sizing: border-box;
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        color: #000;
+        background-color: white;
+        outline: none
+    }
+    .userText {
+        color: white;
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: right;
+        clear: both;
+    }
+    .userText span {
+        line-height: 1.5em;
+        display: inline-block;
+        background: #640451;
+        padding: 10px;
+        border-radius: 8px;
+        border-bottom-right-radius: 2px;
+        max-width: 80%;
+        margin-right: 10px;
+        animation: floatup .5s forwards
+    }
+    .botText {
+        color: #000;
+        font-family: Helvetica;
+        font-weight: normal;
+        font-size: 16px;
+        text-align: left;
+    }
+    .botText span {
+        line-height: 1.5em;
+        display: inline-block;
+        background: #e0e0e0;
+        padding: 10px;
+        border-radius: 8px;
+        border-bottom-left-radius: 2px;
+        max-width: 80%;
+        margin-left: 10px;
+        animation: floatup .5s forwards
+    }
+    @keyframes floatup {
+        from {
+            transform: translateY(14px);
+            opacity: .0;
+        }
+        to {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    @media screen and (max-width:600px) {
+        .full-chat-block {
+            width: 100%;
+            border-radius: 0px;
+        }
+        .chat-bar-collapsible {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+        }
+        .collapsible {
+            width: 100%;
+            border: 0px;
+            border-top: 3px solid white;
+            border-radius: 0px;
+        }
+    }
+    
+    
+        </style>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+    
+    for (let i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+    
+            var content = this.nextElementSibling;
+    
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+    
+        });
+    }
+    function getTime() {
+        let today = new Date();
+        hours = today.getHours();
+        minutes = today.getMinutes();
+    
+        if (hours < 10) {
+            hours = "0" + hours;
+        }
+    
+        if (minutes < 10) {
+            minutes = "0" + minutes;
+        }
+    
+        let time = hours + ":" + minutes;
+        return time;
+    }
+    
+    function firstBotMessage() {
+        let firstMessage = "hello! Welcome to JIT Jaalataana."
+        document.getElementById("botStarterMessage").innerHTML = '<p class="botText"><span>' + firstMessage + '</span></p>';
+    
+        let time = getTime();
+    
+        $("#chat-timestamp").append(time);
+        document.getElementById("userInput").scrollIntoView(false);
+    }
+    firstBotMessage();
+    
+    function getHardResponse(userText) {
+        let botResponse = getBotResponse(userText);
+        let botHtml = '<p class="botText"><span>' + botResponse + '</span></p>';
+        $("#chatbox").append(botHtml);
+    
+        document.getElementById("chat-bar-bottom").scrollIntoView(true);
+    }
+    function getResponse() {
+        let userText = $("#textInput").val();
+    
+        if (userText == "") {
+            userText = "...";
+        }
+    
+        let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
+    
+        $("#textInput").val("");
+        $("#chatbox").append(userHtml);
+        document.getElementById("chat-bar-bottom").scrollIntoView(true);
+    
+        setTimeout(() => {
+            getHardResponse(userText);
+        }, 1000)
+    
+    }
+    function buttonSendText(sampleText) {
+        let userHtml = '<p class="userText"><span>' + sampleText + '</span></p>';
+    
+        $("#textInput").val("");
+        $("#chatbox").append(userHtml);
+        document.getElementById("chat-bar-bottom").scrollIntoView(true);
+    
+    }
+    function sendButton() {
+        getResponse();
+    }
+    $("#textInput").keypress(function (e) {
+        if (e.which == 13) {
+            getResponse();
+        }
+    });
+    function getBotResponse(input) {
+        if (input == "how are you?") {
+            return "I am good";
+        } else if (input == "hi") {
+            return "Hello. What would you like to explore?";
+        } else if (input == "hello") {
+            return "Hello. What would you like to explore?";
+        } else if (input == "what's up") {
+            return "you rock";
+        } else if (input == "what is your name?") {
+            return "You can call me anything. I would like that.";
+        } else if (input == "...") { 
+            return "What do you want to explore today?";
+        } else if (input == "tech club") {
+            return "Happy surfing";
+        } else if (input == "real-time projects") {
+            return "Welcome to project world";
+        } else if (input == "main page") {
+            return "ok";
+        } else if (input == "ok") {
+            return "i am listening";
+        } else if (input == "hola") {
+            return "Hola ! !";
+        } else if (input == "hello") {
+            return "Hello there! What would you like to explore?";
+        } else if (input == "bye") {
+            return "Talk to you later!";
+        } else if (input == "goodbye") {
+            return "see you soon";
+        } else 
+        return "not understanding";
+    }
+        </script>
+
+
+
+  </body>
+               
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+    </html>
